@@ -6,13 +6,16 @@ using System.Web.Mvc;
 
 namespace _1911065425_PhanThanhToan_BigSchool.Controllers
 {
-    public class IndexController : Controller
+    public class CoursesController : Controller
     {
-        // GET: Index
+        // GET: Courses
         public ActionResult Index()
         {
             return View();
-            ////////////////////////////////////11222 phụ
+        }
+        public CoursesController()
+        {
+           
         }
     }
 }
